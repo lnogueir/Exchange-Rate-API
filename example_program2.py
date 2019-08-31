@@ -1,5 +1,6 @@
 from datetime import datetime as dt
 import time
+import requests
 from emailer import Emailer
 
 '''
