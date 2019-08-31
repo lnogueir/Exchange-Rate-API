@@ -8,7 +8,7 @@ class Exchange_Rate:
     
     def get_exchange_rate(self):
         try:
-            r = requests.get('https://br.financas.yahoo.com/quote/'+self.conversion+'=X/')
+            r = requests.get('https://ca.finance.yahoo.com/quote/'+self.conversion+'=X/')
         except:
             print('ERROR LOADING PAGE')
         print('PAGE LOADED')
